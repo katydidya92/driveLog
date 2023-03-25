@@ -3,11 +3,12 @@ spring:
     active:
       - local
     group:
-      local : "site-local,db-local"
+      local : "site-local,db-local,my-service"
       dev : "site-dev"
     include:
       - db
       - site
+      - my-service
   main:
     banner-mode: off
   banner:

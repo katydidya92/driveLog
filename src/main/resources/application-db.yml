@@ -47,7 +47,7 @@ spring:
         driver-class-name: org.mariadb.jdbc.Driver
         jdbc-url: jdbc:mysql:aurora://...:3306/divelog
         username: svc_divelog
-        password: 1234 #TODO Generated
+        password: 1234
         maxLifetime: 58000 # 58sec(서버 연결시간보다 짧게, 커넥션풀 타임아웃 3초)
         connectionTimeout: 3000 # 3sec
         maximumPoolSize: 10

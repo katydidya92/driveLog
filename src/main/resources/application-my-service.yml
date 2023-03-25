@@ -1,0 +1,13 @@
+my.service:
+  enabled: false
+  remote-address: 192.168.0.1
+  security:
+    username: sweets1327
+    password: 123123
+    roles:
+      - ADMIN
+      - USER
+    attrs:
+      hasWriteAuthority: false
+      hasReadAuthority: true
+      hasDeletedAuthority: false

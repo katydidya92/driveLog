@@ -1,0 +1,20 @@
+#default
+site:
+  author-name: Sweets
+  author-email: Sweets@gmail.com
+---
+spring:
+  config:
+    activate:
+      on-profile: "site-local"
+site:
+  author-name: Sweets-local
+  author-email: Sweets-local@gmail.com
+---
+spring:
+  config:
+    activate:
+      on-profile: "site-dev"
+site:
+  author-name: Sweets-dev
+  author-email: Sweets-dev@gmail.com
